@@ -81,5 +81,13 @@
             android:title="@string/efs_backup_title"
             android:summary="@string/efs_backup_summary" />
     </PreferenceCategory>
+    <PreferenceCategory
+        android:key="balus_category"
+        android:title="@string/balus">
+        <PreferenceScreen
+            android:key="balus"
+            android:title="@string/balus"
+            android:summary="@string/balus_summary" />
+    </PreferenceCategory>
 
 </PreferenceScreen>

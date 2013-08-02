@@ -75,6 +75,10 @@
     <string name="backup_manage_rename_message">新しいバックアップChange low memory task killer settings名を入力</string>
     <string name="backup_manage_delete">削除</string>
     <string name="backup_manage_delete_confirm">バックアップを削除しますか?</string>
+    <string name="balus">バルス</string>
+    <string name="balus_summary">時間だ！答えを聞こう！</string>
+    <string name="balus_invalid">呪文が正しくありません</string>
+    <string name="balus_confirmed">ああ！端末があああああああ！</string>
 
     <!-- General -->
     <string name="general_title">全般</string>

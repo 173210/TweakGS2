@@ -101,6 +101,7 @@
         <activity android:name=".RomManager.RomManagerPreferenceActivity" />
         <activity android:name=".RomManager.ZipFilePickerActivity" />
         <activity android:name=".RomManager.RestoreDirPickerActivity" />
+        <activity android:name=".RomManager.BalusActivity" />
 
         <!-- MultiBoot -->
         <activity android:name=".MultiBoot.MultiBootPreferenceActivity" />

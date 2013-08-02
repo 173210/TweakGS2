@@ -82,6 +82,10 @@
     <string name="efs_backup_title">efs backup</string>
     <string name="efs_backup_summary">efs pertition backup</string>
     <string name="backup_completed">backup completed.</string>
+    <string name="balus">Balus</string>
+    <string name="balus_summary">It\'s time to answer!</string>
+    <string name="balus_invalid">Invalid　Spell</string>
+    <string name="balus_confirmed">Ohhhhhhh!!!! My device!!!!!!!!!!!!!</string>
 
     <!-- General -->
     <string name="general_title">General</string>

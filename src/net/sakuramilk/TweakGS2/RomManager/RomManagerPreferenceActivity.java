@@ -46,6 +46,7 @@ public class RomManagerPreferenceActivity extends PreferenceActivity
     private PreferenceScreen mFlashInstallZip;
     private PreferenceScreen mSblBackup;
     private PreferenceScreen mEfsBackup;
+    private PreferenceScreen mBalus;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -73,6 +74,9 @@ public class RomManagerPreferenceActivity extends PreferenceActivity
         mSblBackup.setOnPreferenceClickListener(this);
         mEfsBackup = (PreferenceScreen)findPreference("efs_backup");
         mEfsBackup.setOnPreferenceClickListener(this);
+        
+        mBalus = (PreferenceScreen)findPreference("balus");
+        mBalus.setOnPreferenceClickListener(this);
     }
 
     @Override
@@ -133,6 +137,8 @@ public class RomManagerPreferenceActivity extends PreferenceActivity
             SystemCommand.mkdir(backupDir);
             SystemCommand.efs_backup_for_gs2(backupPath);
             Toast.makeText(this, getText(R.string.backup_completed) + "\n" + backupPath, Toast.LENGTH_LONG).show();
+        } else if (preference == mBalus) {
+        	this.startActivity(new Intent(getApplicationContext(), BalusActivity.class));
         }
         return false;
     }
